@@ -1,0 +1,40 @@
+shortcuts!
+
+comment
+ctrl + /
+
+command palate
+ctrl + shift + p 
+
+split editor
+ctrl + \
+
+toggle sidebar
+ctrl + b
+
+format document
+shift + alt + f
+
+cut line
+ctrl + x
+
+move line up/down
+alt + ↑ / alt + ↓
+
+duplicate line
+shift + alt + ↓
+
+delete line
+ctrl + shift + k
+
+select line
+ctrl + l
+
+indent line
+ctrl + ]
+
+outdent line
+ctrl + [
+
+block comment
+select + shift + alt + a 
