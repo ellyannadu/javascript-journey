@@ -1,4 +1,4 @@
-console.log('hello world!');
+/* console.log('hello world!');
 
 // DEFINING VARIABLES
 // the most common one is let
@@ -25,4 +25,4 @@ const name = 'emmanuel';
 // used for variables that cannot be assigned later!
 
 // most common way to define variables
-var badIdea = 'avoid var if unless you are smart';
+var badIdea = 'avoid var if unless you are smart'; */
