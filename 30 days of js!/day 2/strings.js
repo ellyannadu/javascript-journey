@@ -38,3 +38,4 @@ let completeName = firstName + ' ' + secondName + ' ' + lastName;
 let personalInfoTwo = `i am ${fullName}. i am ${age} years old. i live in ${city}.`
 console.log(personalInfoTwo);
 
+//
