@@ -1,4 +1,4 @@
-const abTroubleshoot = require("./troubleshooting");
+const abTroubleshoot = require("../troubleshooting");
 
 const result = abTroubleshoot();
 
