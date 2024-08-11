@@ -91,6 +91,51 @@ function myFunction() {
   alert("hello");
 });
 
-// this is an anonymous function bc it has no name
+// this is an anonymous function bc it has no name {}
 // you see anonymous functions when a function expects to receive another function as a parameter
 // the function parameter is often passed as an anonymous function
+
+// function expressions
+
+let greet = function (name) {
+  return "Hello, " + name + "!";
+};
+
+console.log(greet("Alice"));
+
+let greeting = function () {
+  return "hello!";
+};
+
+console.log(greeting());
+
+// arrow functions vs regular functions
+// regular
+let addition = function (a, b) {
+  return a + b;
+};
+
+console.log(addition(3, 3));
+
+// arrow
+let add = (a, b) => {
+  return a + b;
+};
+
+console.log(add(2, 2));
+
+// you can go even shorter!
+// If the function has only one expression, you can make it even shorter by removing the curly braces {} and the return keyword:
+let subtract = (a, b) => a - b;
+console.log(subtract(10, 5));
+
+// no parameters or a single parameter
+
+// no param: use empty parenthesis
+let sayHello = () => "Hello!";
+console.log(sayHello());
+
+// one param: skip the parenthesis around the parameter
+
+let square = (x) => x * 2;
+console.log(square(3));
